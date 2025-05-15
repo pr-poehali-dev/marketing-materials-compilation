@@ -1,7 +1,13 @@
-
-import { useState } from 'react';
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Icon from "@/components/ui/icon";
 
@@ -33,24 +39,24 @@ const Index = () => {
         {
           title: "Культурное мероприятие в Архангельске",
           date: "19.04.2015",
-          url: "https://www.echosevera.ru/culture/2015/04/19/1705.html"
+          url: "https://www.echosevera.ru/culture/2015/04/19/1705.html",
         },
         {
           title: "Новостная статья",
           date: "23.03.2015",
-          url: "https://www.echosevera.ru/news/2015/03/23/12267.html"
+          url: "https://www.echosevera.ru/news/2015/03/23/12267.html",
         },
         {
           title: "Культурное обозрение",
           date: "25.03.2015",
-          url: "https://www.echosevera.ru/culture/2015/03/25/1677.html"
+          url: "https://www.echosevera.ru/culture/2015/03/25/1677.html",
         },
         {
           title: "Актуальные новости региона",
           date: "23.04.2015",
-          url: "https://www.echosevera.ru/news/2015/04/23/12630.html"
-        }
-      ]
+          url: "https://www.echosevera.ru/news/2015/04/23/12630.html",
+        },
+      ],
     },
     {
       name: "Правда Северо-Запада",
@@ -60,9 +66,9 @@ const Index = () => {
         {
           title: "ТАХОГРАФЫ ГЛОНАСС",
           description: "Статья о внедрении современных технологий мониторинга",
-          url: "https://telegra.ph/TAHOGRAFY-GLONASS-06-19"
-        }
-      ]
+          url: "https://telegra.ph/TAHOGRAFY-GLONASS-06-19",
+        },
+      ],
     },
     {
       name: "Fashion Collection",
@@ -72,14 +78,14 @@ const Index = () => {
         {
           title: "ПРАЗДНИК КРАСОТЫ",
           description: "Обзор модных событий региона",
-          url: "https://telegra.ph/PRAZDNIK-KRASOTY-06-19"
+          url: "https://telegra.ph/PRAZDNIK-KRASOTY-06-19",
         },
         {
           title: "FASHION BIRTHDAY",
           description: "Юбилейное мероприятие в мире моды",
-          url: "https://telegra.ph/FASHION-BIRTHDAY-06-19"
-        }
-      ]
+          url: "https://telegra.ph/FASHION-BIRTHDAY-06-19",
+        },
+      ],
     },
     {
       name: "ВМАШИНЕ",
@@ -89,19 +95,19 @@ const Index = () => {
         {
           title: "ДРАЙВ БЕЗ ПРЕДЕЛА",
           description: "Обзор мощных автомобилей",
-          url: "https://telegra.ph/DRAJV-BEZ-PREDELA-06-19"
+          url: "https://telegra.ph/DRAJV-BEZ-PREDELA-06-19",
         },
         {
           title: "WELCOME TO ГОРОД РАЗБИТЫХ ДОРОГ",
           description: "Проблемы городской инфраструктуры",
-          url: "https://telegra.ph/WELCOME-TO-GOROD-RAZBITYH-DOROG-06-19"
+          url: "https://telegra.ph/WELCOME-TO-GOROD-RAZBITYH-DOROG-06-19",
         },
         {
           title: "АВТОГАДЖЕТ",
           description: "Инновационные технологии для автомобилистов",
-          url: "https://telegra.ph/AVTOGADZHET-06-19"
-        }
-      ]
+          url: "https://telegra.ph/AVTOGADZHET-06-19",
+        },
+      ],
     },
     {
       name: "Никита Прокшин в СМИ",
@@ -111,35 +117,203 @@ const Index = () => {
         {
           title: "Публикация в Эхо Севера",
           date: "04.02.2014",
-          url: "https://www.echosevera.ru/news/2014/02/04/8714.html"
+          url: "https://www.echosevera.ru/news/2014/02/04/8714.html",
         },
         {
           title: "Еще одна публикация в Эхо Севера",
           date: "05.02.2014",
-          url: "https://www.echosevera.ru/news/2014/02/05/8718.html"
+          url: "https://www.echosevera.ru/news/2014/02/05/8718.html",
         },
         {
           title: "Сет, гейм, матч! Где поиграть в теннис в ЮЗАО",
           description: "Статья в Аргументы и Факты",
-          url: "https://uzao.aif.ru/stati/set-geim-matc-gde-poigrat-v-tennis-v-yuzao"
+          url: "https://uzao.aif.ru/stati/set-geim-matc-gde-poigrat-v-tennis-v-yuzao",
         },
         {
           title: "Партия ЛДПР представила предвыборную программу",
           description: "Публикация на Первом канале",
-          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predstavila_predvybornuyu_programmu_s_kotoroy_poydyot_na_parlamentskoe_golosovanie"
-        }
-      ]
-    }
+          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predstavila_predvybornuyu_programmu_s_kotoroy_poydyot_na_parlamentskoe_golosovanie",
+        },
+      ],
+    },
+    {
+      name: "BQ в СМИ",
+      description: "Упоминания в СМИ бренда бытовой техники и электроники",
+      icon: "Laptop",
+      publications: [
+        {
+          title:
+            "Обзор новой линейки беспроводных пылесосов BQ на телеканале Россия-1",
+          description: "Видеоматериал о новинках бытовой техники",
+          url: "https://smotrim.ru/video/2593342",
+        },
+        {
+          title: "Бренд BQ представил новую линейку беспроводных пылесосов",
+          description: "Обзор технических характеристик и преимуществ",
+          url: "https://upweek.ru/brend-bq-predstavil-novuyu-linejku-besprovodnyh-pylesosov",
+        },
+        {
+          title: "BQ выпустил четыре новых беспроводных пылесоса",
+          description: "Анонс продуктовой линейки для российского рынка",
+          url: "https://mpp-news.ru/2023/03/15/bq-vypustil-chetyre-novyh-besprovodnyh-pylesosa/",
+        },
+        {
+          title:
+            "BQ-1036L Exion Advant: недорогой 10-дюймовый планшет с Full HD экраном",
+          description: "Детальный обзор новой модели планшета",
+          url: "https://www.dgl.ru/technique/tablets/bq-1036l-exion-advant-nedorogoj-10-djujmovyj-planshet-s-full-hd-jekranom.html",
+        },
+        {
+          title: "Обзор планшета BQ-1036L Exion Advant",
+          description: "Технический обзор с тестированием производительности",
+          url: "https://itndaily.ru/2023/05/12/obzor-plansheta-bq-1036l-exion-advant/",
+        },
+        {
+          title: "Какую технику покупали в подарок на 8 марта?",
+          description: "Аналитика продаж на официальном сайте бренда",
+          url: "https://bq.ru/news/kakuyu-tekhniku-pokupali-v-podarok-na-8-marta--/",
+        },
+        {
+          title: "В России появился вертикальный пылесос на замену Dyson",
+          description: "Сравнительный анализ с конкурентами на рынке",
+          url: "https://bq.ru/news/v-rossii-poyavilsya-vertikalnyy-pylesos-na-zamenu-dyson/",
+        },
+        {
+          title: "Бренд BQ представил новую линейку беспроводных пылесосов",
+          description: "Пресс-релиз на официальном сайте компании",
+          url: "https://bq.ru/news/brend-bq-predstavil-novuyu-lineyku-besprovodnykh-pylesosov/",
+        },
+      ],
+    },
+    {
+      name: "Виктория Татосян в СМИ",
+      description: "Упоминания в СМИ известного косметолога",
+      icon: "Sparkles",
+      publications: [
+        {
+          title:
+            "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
+          description: "Интервью для МК о влиянии масок на здоровье кожи",
+          url: "https://www.mk.ru/social/2021/02/06/novyy-pobochnyy-effekt-pandemii-maski-vyzvali-problemy-s-kozhey.html",
+        },
+        {
+          title:
+            "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
+          description: "Экспертное мнение в журнале Profile Russia",
+          url: "https://profilerussia.com/2021/02/06/novyi-pobochnyi-effekt-pandemii-maski-vyzvali-problemy-s-kojei/",
+        },
+        {
+          title:
+            "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
+          description: "Аналитический материал с комментариями эксперта",
+          url: "https://newvesti.info/2021/02/06/novyy-pobochnyy-effekt-pandemii-maski-vyzvali-problemy-s-kozhey.html",
+        },
+        {
+          title:
+            "Новый нежелательные последствия сильной эпидемии: маски вызвали трудности с кожей",
+          description: "Статья о последствиях длительного ношения масок",
+          url: "https://a-climat.ru/novyj-nezhelatelnye-posledstviya-silnoj-epidemii-maski-vyzvali-trudnosti-s-kozhej.html",
+        },
+        {
+          title: "Интервью с Викторией Татосян",
+          description: "Видеоинтервью с экспертом в области косметологии",
+          url: "https://www.youtube.com/watch?v=bL2o4cFTUd8",
+        },
+      ],
+    },
+    {
+      name: "Избирательная кампания 2021",
+      description:
+        "Материалы для СМИ, подготовленные в рамках кампании по выборам в Госдуму в Калуге, Туле и Рязани",
+      icon: "Vote",
+      publications: [
+        {
+          title: "Справедливая Россия поможет волонтерам",
+          description:
+            "Публикация в КП Тула о поддержке волонтерского движения",
+          url: "https://www.tula.kp.ru/daily/27264/4397722/",
+        },
+        {
+          title: "Справедливая Россия: кому достанутся путевки в Крым",
+          description: "Информация о социальной программе партии",
+          url: "https://myslo.ru/news/company/2021-04-15-spravedlivая-rossия-komu-dostanutsya-putevki-v-krym",
+        },
+        {
+          title: "Справедливая Россия поможет калужским волонтерам",
+          description: "Публикация в КП Калуга о помощи добровольцам",
+          url: "https://www.kaluga.kp.ru/daily/27264/4397271/",
+        },
+        {
+          title: "Справедливая Россия: кто выиграет путешествие в Крым",
+          description: "Анонс конкурса для жителей Рязани",
+          url: "https://rzn.mk.ru/politics/2021/04/16/spravedlivая-rossия-kто-vyigraet-puteshestvie-v-kрым.html",
+        },
+        {
+          title: "Справедливая Россия объявила о слиянии с другими партиями",
+          description: "Публикация о политическом объединении",
+          url: "https://www.tula.kp.ru/daily/27271/4405341/",
+        },
+        {
+          title: "У пенсионеров украли 45 млрд рублей пенсий",
+          description: "Публикация о пенсионной политике в КП Тула",
+          url: "https://www.tula.kp.ru/daily/27279/4414450/",
+        },
+        {
+          title:
+            "Захар Прилепин: «Надо, чтобы количество сортов йогуртов в стране начало соответствовать количеству качественных дорог»",
+          description: "Интервью с политическим деятелем",
+          url: "https://newstula.ru/fn_719009.html",
+        },
+        {
+          title: "Названы шокирующие цифры смертности и рождаемости",
+          description: "Аналитический материал о демографической ситуации",
+          url: "https://rzn.mk.ru/social/2021/06/09/nazvany-shokiruyushhie-cifry-smertности-и-rozhdaemости.html",
+        },
+        {
+          title: "Справедливая Россия запустила свое приложение на Андроид",
+          description: "Новость о цифровизации партийной работы",
+          url: "https://www.kalуга.kp.ru/daily/27291/4429436/",
+        },
+        {
+          title: "Справедливая Россия представила свою предвыборную программу",
+          description: "Обзор программных тезисов партии",
+          url: "https://myslo.ru/news/company/2021-07-05-spravedlivая-rossия-представила-сvoю-пredvybornую-программу",
+        },
+        {
+          title: "Справедливая Россия представила свою предвыборную программу",
+          description: "Публикация программных положений партии",
+          url: "https://ryazannews.ru/fn_743352.html",
+        },
+        {
+          title:
+            "Александр Бабичев выступил за введение двух дополнительных выходных после вакцинации",
+          description: "Инициатива по поддержке вакцинируемых граждан",
+          url: "https://www.kaluga.kp.ru/daily/28318/4460656/",
+        },
+        {
+          title:
+            "Большинство рязанцев выступили против принудительной вакцинации",
+          description: "Результаты социологического опроса",
+          url: "https://www.rzn.info/news/2021/7/14/bol-shinstvo-ryazancev-вystupили-protiv-prinuditel-noy-vakcinacii.html",
+        },
+        {
+          title: "В беде не оставим",
+          description: "Социальная инициатива партии в Калуге",
+          url: "https://www.kalуга-poisk.ru/news/obschestvo/v-bede-ne-ostavim",
+        },
+      ],
+    },
   ];
 
   // Общее количество публикаций
   const totalPublications = mediaSources.reduce(
-    (acc, source) => acc + source.publications.length, 0
+    (acc, source) => acc + source.publications.length,
+    0,
   );
 
   // Функция для открытия ссылки в новой вкладке
   const openLink = (url: string) => {
-    window.open(url, '_blank');
+    window.open(url, "_blank");
   };
 
   return (
@@ -149,11 +323,14 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center font-[Montserrat]">
             Рекламные материалы
-            <span className="text-purple-500 block font-medium mt-2">г. Архангельск</span>
+            <span className="text-purple-500 block font-medium mt-2">
+              г. Архангельск
+            </span>
           </h1>
           <p className="mt-4 text-center text-gray-600 dark:text-gray-400 max-w-2xl mx-auto font-[Source Sans Pro]">
-            Коммерческое предложение для потенциальных партнеров, содержащее подборку медиа-материалов 
-            в ведущих изданиях Архангельска и федеральных СМИ.
+            Коммерческое предложение для потенциальных партнеров, содержащее
+            подборку медиа-материалов в ведущих изданиях Архангельска и
+            федеральных СМИ.
           </p>
         </div>
       </header>
@@ -166,8 +343,12 @@ const Index = () => {
               <CardTitle className="text-xl">Издания</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-4xl font-bold text-purple-600">{mediaSources.length}</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">ведущих СМИ</p>
+              <p className="text-4xl font-bold text-purple-600">
+                {mediaSources.length}
+              </p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                ведущих СМИ
+              </p>
             </CardContent>
           </Card>
 
@@ -176,8 +357,12 @@ const Index = () => {
               <CardTitle className="text-xl">Публикации</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-4xl font-bold text-purple-600">{totalPublications}</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">рекламных материалов</p>
+              <p className="text-4xl font-bold text-purple-600">
+                {totalPublications}
+              </p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                рекламных материалов
+              </p>
             </CardContent>
           </Card>
 
@@ -187,25 +372,30 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-4xl font-bold text-purple-600">500K+</p>
-              <p className="text-sm text-gray-500 dark:text-gray-400">потенциальный охват аудитории</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400">
+                потенциальный охват аудитории
+              </p>
             </CardContent>
           </Card>
         </div>
 
         {/* Табы для фильтрации по источникам */}
-        <Tabs 
-          defaultValue="all" 
-          className="mb-12"
-          onValueChange={setActiveTab}
-        >
+        <Tabs defaultValue="all" className="mb-12" onValueChange={setActiveTab}>
           <div className="flex justify-center mb-8">
             <TabsList className="grid grid-flow-col auto-cols-max gap-2">
               <TabsTrigger value="all" className="px-6">
                 Все издания
               </TabsTrigger>
               {mediaSources.map((source, index) => (
-                <TabsTrigger key={index} value={source.name.toLowerCase().replace(/\s+/g, '-')} className="px-4">
-                  <Icon name={source.icon || "Newspaper"} className="mr-2 h-4 w-4" />
+                <TabsTrigger
+                  key={index}
+                  value={source.name.toLowerCase().replace(/\s+/g, "-")}
+                  className="px-4"
+                >
+                  <Icon
+                    name={source.icon || "Newspaper"}
+                    className="mr-2 h-4 w-4"
+                  />
                   {source.name}
                 </TabsTrigger>
               ))}
@@ -214,37 +404,39 @@ const Index = () => {
 
           <TabsContent value="all">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 animate-fade-in">
-              {mediaSources.map((source, sourceIndex) => (
+              {mediaSources.map((source, sourceIndex) =>
                 source.publications.map((pub, pubIndex) => (
-                  <PublicationCard 
+                  <PublicationCard
                     key={`${sourceIndex}-${pubIndex}`}
                     publication={pub}
                     mediaSource={source}
                     onClick={() => openLink(pub.url)}
                   />
-                ))
-              ))}
+                )),
+              )}
             </div>
           </TabsContent>
 
           {mediaSources.map((source, index) => (
-            <TabsContent 
-              key={index} 
-              value={source.name.toLowerCase().replace(/\s+/g, '-')}
+            <TabsContent
+              key={index}
+              value={source.name.toLowerCase().replace(/\s+/g, "-")}
               className="animate-fade-in"
             >
               <div className="mb-8">
-                <h2 className="text-3xl font-bold mb-4 font-[Montserrat]">{source.name}</h2>
+                <h2 className="text-3xl font-bold mb-4 font-[Montserrat]">
+                  {source.name}
+                </h2>
                 {source.description && (
                   <p className="text-gray-600 dark:text-gray-400 max-w-3xl font-[Source Sans Pro]">
                     {source.description}
                   </p>
                 )}
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {source.publications.map((pub, pubIndex) => (
-                  <PublicationCard 
+                  <PublicationCard
                     key={pubIndex}
                     publication={pub}
                     mediaSource={source}
@@ -262,10 +454,12 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4 font-[Montserrat]">Контактная информация</h3>
+              <h3 className="text-xl font-bold mb-4 font-[Montserrat]">
+                Контактная информация
+              </h3>
               <p className="font-[Source Sans Pro]">
-                Для получения дополнительной информации о рекламном сотрудничестве 
-                свяжитесь с нашими представителями.
+                Для получения дополнительной информации о рекламном
+                сотрудничестве свяжитесь с нашими представителями.
               </p>
               <Button className="mt-4 bg-purple-600 hover:bg-purple-700">
                 <Icon name="Mail" className="mr-2 h-4 w-4" />
@@ -273,16 +467,21 @@ const Index = () => {
               </Button>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-4 font-[Montserrat]">О презентации</h3>
+              <h3 className="text-xl font-bold mb-4 font-[Montserrat]">
+                О презентации
+              </h3>
               <p className="font-[Source Sans Pro]">
-                Эта презентация содержит рекламные материалы, опубликованные 
-                в ведущих СМИ г. Архангельска и федеральных изданиях.
-                Все материалы представлены исключительно в информационных целях.
+                Эта презентация содержит рекламные материалы, опубликованные в
+                ведущих СМИ г. Архангельска и федеральных изданиях. Все
+                материалы представлены исключительно в информационных целях.
               </p>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} Рекламная презентация. Все права защищены.</p>
+            <p>
+              © {new Date().getFullYear()} Рекламная презентация. Все права
+              защищены.
+            </p>
           </div>
         </div>
       </footer>
@@ -297,15 +496,29 @@ interface PublicationCardProps {
   onClick: () => void;
 }
 
-const PublicationCard = ({ publication, mediaSource, onClick }: PublicationCardProps) => {
+const PublicationCard = ({
+  publication,
+  mediaSource,
+  onClick,
+}: PublicationCardProps) => {
   return (
-    <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] cursor-pointer h-full bg-white/90 dark:bg-gray-900/90 backdrop-blur" onClick={onClick}>
+    <Card
+      className="overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] cursor-pointer h-full bg-white/90 dark:bg-gray-900/90 backdrop-blur"
+      onClick={onClick}
+    >
       <CardHeader className="pb-2 border-b">
         <div className="flex items-center mb-2">
-          <Icon name={mediaSource.icon || "Newspaper"} className="mr-2 h-5 w-5 text-purple-500" />
-          <span className="text-sm text-gray-500 dark:text-gray-400">{mediaSource.name}</span>
+          <Icon
+            name={mediaSource.icon || "Newspaper"}
+            className="mr-2 h-5 w-5 text-purple-500"
+          />
+          <span className="text-sm text-gray-500 dark:text-gray-400">
+            {mediaSource.name}
+          </span>
         </div>
-        <CardTitle className="text-xl font-medium line-clamp-2">{publication.title}</CardTitle>
+        <CardTitle className="text-xl font-medium line-clamp-2">
+          {publication.title}
+        </CardTitle>
         {publication.date && (
           <CardDescription className="text-gray-500 text-sm">
             Опубликовано: {publication.date}
@@ -314,11 +527,17 @@ const PublicationCard = ({ publication, mediaSource, onClick }: PublicationCardP
       </CardHeader>
       <CardContent className="pt-4">
         {publication.description && (
-          <p className="text-gray-600 dark:text-gray-400 line-clamp-3">{publication.description}</p>
+          <p className="text-gray-600 dark:text-gray-400 line-clamp-3">
+            {publication.description}
+          </p>
         )}
       </CardContent>
       <CardFooter className="pt-0 flex justify-end">
-        <Button variant="ghost" size="sm" className="text-purple-600 hover:text-purple-700 hover:bg-purple-50 dark:hover:bg-gray-800 gap-1">
+        <Button
+          variant="ghost"
+          size="sm"
+          className="text-purple-600 hover:text-purple-700 hover:bg-purple-50 dark:hover:bg-gray-800 gap-1"
+        >
           Просмотреть
           <Icon name="ExternalLink" className="h-4 w-4" />
         </Button>
