@@ -30,7 +30,7 @@ interface MediaSource {
 const Index = () => {
   const [activeTab, setActiveTab] = useState("all");
 
-  // Массив данных о медиа-источниках и публикациях
+  // Массив данных о медиа-источниках и публикаций
   const mediaSources: MediaSource[] = [
     {
       name: "Эхо Севера",
@@ -133,7 +133,7 @@ const Index = () => {
         {
           title: "Партия ЛДПР представила предвыборную программу",
           description: "Публикация на Первом канале",
-          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predставила_preдvybornую_programmu_s_kotoroy_poydyot_na_parlamentskoe_gолосование",
+          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predставила_preдvybornую_programmu_s_kotoroy_poydyot_na_parlamentskoe_golosovanie",
         },
       ],
     },
@@ -151,12 +151,12 @@ const Index = () => {
         {
           title: "Бренд BQ представил новую линейку беспроводных пылесосов",
           description: "Обзор технических характеристик и преимуществ",
-          url: "https://upweek.ru/brend-bq-pредставил-novuyu-linejku-беспроводных-пылесосов",
+          url: "https://upweek.ru/brend-bq-predставил-novuyu-linejku-беспроводных-пылесосов",
         },
         {
           title: "BQ выпустил четыре новых беспроводных пылесоса",
           description: "Анонс продуктовой линейки для российского рынка",
-          url: "https://mpp-news.ru/2023/03/15/bq-vypустил-chetyre-novyh-беспроводных-пылесоса/",
+          url: "https://mpp-news.ru/2023/03/15/bq-vypustил-chetyre-novyh-беспроводных-пылесоса/",
         },
         {
           title:
@@ -167,7 +167,7 @@ const Index = () => {
         {
           title: "Обзор планшета BQ-1036L Exion Advant",
           description: "Технический обзор с тестированием производительности",
-          url: "https://itndaily.ru/2023/05/12/obzor-планшета-bq-1036l-exion-advant/",
+          url: "https://itndaily.ru/2023/05/12/obзор-планшета-bq-1036l-exion-advant/",
         },
         {
           title: "Какую технику покупали в подарок на 8 марта?",
@@ -182,7 +182,7 @@ const Index = () => {
         {
           title: "Бренд BQ представил новую линейку беспроводных пылесосов",
           description: "Пресс-релиз на официальном сайте компании",
-          url: "https://bq.ru/news/brend-bq-представил-novuyu-lineyку-беспроводных-пылесосов/",
+          url: "https://bq.ru/news/brend-bq-пredставил-novuyu-lineyку-беспроводных-пылесосов/",
         },
       ],
     },
@@ -195,25 +195,25 @@ const Index = () => {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Интервью для МК о влиянии масок на здоровье кожи",
-          url: "https://www.mk.ru/social/2021/02/06/novyy-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kozhey.html",
+          url: "https://www.mk.ru/social/2021/02/06/novый-пobochnyj-эффект-пандемии-мaski-vyzвали-проблемы-с-kozhey.html",
         },
         {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Экспертное мнение в журнале Profile Russia",
-          url: "https://profilerussia.com/2021/02/06/novyi-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kojey/",
+          url: "https://profilerussia.com/2021/02/06/novyi-пobochnyj-эффект-пандемии-мaski-vyzвали-проблемы-с-kojey/",
         },
         {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Аналитический материал с комментариями эксперта",
-          url: "https://newvesti.info/2021/02/06/novyy-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kozhey.html",
+          url: "https://newvesti.info/2021/02/06/novый-пobochnyj-эффект-пандемии-мaski-vyzвали-проблемы-с-kozhey.html",
         },
         {
           title:
             "Новый нежелательные последствия сильной эпидемии: маски вызвали трудности с кожей",
           description: "Статья о последствиях длительного ношения масок",
-          url: "https://a-climat.ru/novyj-nezhelatelnye-posledstviya-сильной-эпидемии-мaski-vyzvali-трудности-с-kozhey.html",
+          url: "https://a-climat.ru/novyj-nezhelatelnye-пosledstviya-сильной-эпидемии-мaski-vyzвали-трудности-с-kozhey.html",
         },
         {
           title: "Интервью с Викторией Татосян",
@@ -237,7 +237,7 @@ const Index = () => {
         {
           title: "Справедливая Россия: кому достанутся путевки в Крым",
           description: "Информация о социальной программе партии",
-          url: "https://myslo.ru/news/company/2021-04-15-spravedlivая-rossия-komu-dostanutsya-putevki-v-crym",
+          url: "https://myslo.ru/news/company/2021-04-15-spravedливая-rossия-komu-dostanutsya-putevki-v-crym",
         },
         {
           title: "Справедливая Россия поможет калужским волонтерам",
@@ -247,7 +247,7 @@ const Index = () => {
         {
           title: "Справедливая Россия: кто выиграет путешествие в Крым",
           description: "Анонс конкурса для жителей Рязани",
-          url: "https://rzn.mk.ru/politics/2021/04/16/spravedlivая-rossия-kто-vyigraet-pутешествие-в-Crym.html",
+          url: "https://rzn.mk.ru/politics/2021/04/16/spravedливая-rossия-kто-vyigraet-путешествие-в-Crym.html",
         },
         {
           title: "Справедливая Россия объявила о слиянии с другими партиями",
@@ -268,7 +268,7 @@ const Index = () => {
         {
           title: "Названы шокирующие цифры смертности и рождаемости",
           description: "Аналитический материал о демографической ситуации",
-          url: "https://rzn.mk.ru/social/2021/06/09/nazvany-shокирующие-цифры-смертности-и-rozhдаемости.html",
+          url: "https://rzn.mk.ru/social/2021/06/09/nazvany-шокирующие-цифры-смертности-и-rozhдаемости.html",
         },
         {
           title: "Справедливая Россия запустила свое приложение на Андроид",
@@ -278,7 +278,7 @@ const Index = () => {
         {
           title: "Справедливая Россия представила свою предвыборную программу",
           description: "Обзор программных тезисов партии",
-          url: "https://myslo.ru/news/company/2021-07-05-spravedливая-rossия-представила-свою-predvybornую-программу",
+          url: "https://myslo.ru/news/company/2021-07-05-spravedlivая-rossия-представила-свою-predvybornую-программу",
         },
         {
           title: "Справедливая Россия представила свою предвыборную программу",
@@ -295,12 +295,134 @@ const Index = () => {
           title:
             "Большинство рязанцев выступили против принудительной вакцинации",
           description: "Результаты социологического опроса",
-          url: "https://www.rzn.info/news/2021/7/14/bol-шинство-ryazancev-вystupили-против-принудительной-вакцинации.html",
+          url: "https://www.rzn.info/news/2021/7/14/bolольшинство-ryazancev-вystupили-против-принудительной-вакцинации.html",
         },
         {
           title: "В беге не оставим",
           description: "Социальная инициатива партии в Калуге",
           url: "https://www.kaluga-poisk.ru/news/obschestvo/v-bede-ne-ostavим",
+        },
+      ],
+    },
+    // Добавляем новый раздел про Есенин-центр
+    {
+      name: "Есенин-центр",
+      description:
+        "Публикации об открытии Захаром Прилепиным «Есенин-центра» в Рязани",
+      icon: "BookOpen",
+      publications: [
+        {
+          title: "Захар Прилепин открыл в Рязани «Есенин-центр»",
+          description: "Репортаж с церемонии открытия арт-пространства",
+          url: "https://www.rzn.info/articles/zahar-prilepin-otkryl-v-ryazani-esenin-centr.html",
+        },
+        {
+          title: "Рязанские новости: открытие «Есенин-центра»",
+          description: "Подробности о новом культурном пространстве",
+          url: "https://ryazannews.ru/fn_737139.html",
+        },
+        {
+          title: "Прилепин открыл культурное пространство в Рязани",
+          description: "Публикация в Комсомольской правде о новом арт-центре",
+          url: "https://www.ryazan.kp.ru/daily/28305.5/4450123/",
+        },
+        {
+          title:
+            "От слова к делу: Захар Прилепин открыл в Рязани арт-пространство «Есенин-центр»",
+          description: "Репортаж с церемонии открытия в МК Рязань",
+          url: "https://rzn.mk.ru/social/2021/07/27/ot-slova-k-delu-zakhar-prilepin-otkryl-v-ryazani-artprostranstvo-esenincentr.html",
+        },
+        {
+          title: "Арт-пространство «Есенин-центр» открылось в Рязани",
+          description:
+            "Публикация в Интерфакс о новом туристическом объекте региона",
+          url: "https://www.interfax-russia.ru/tourism/news/art-prostranstvo-esenin-centr-otkrylos-v-ryazani",
+        },
+        {
+          title: "В Рязани официально открыт Есенин Центр",
+          description: "Статья в Викиновостях о культурном событии",
+          url: "https://ru.wikinews.org/wiki/%D0%92_%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D0%B8_%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82_%D0%95%D1%81%D0%B5%D0%BD%D0%B8%D0%BD_%D0%A6%D0%B5%D0%BD%D1%82%D1%80",
+        },
+        {
+          title: "Есенин-центр начинает работу",
+          description: "Публикация в литературном издании «Завтра»",
+          url: "https://zavtra.ru/blogs/esenin_tcentr_nachinaet_rabotu_",
+        },
+        {
+          title: "Информация об открытии «Есенин-центра»",
+          description: "Новостная публикация в нижегородском издании",
+          url: "https://progorodnn.ru/news/96623",
+        },
+      ],
+    },
+    // Добавляем раздел про Федеральный центр прикладного развития ИИ
+    {
+      name: "ИИ-технологии",
+      description:
+        "Присутствие в СМИ и социальных медиа Федерального центра прикладного развития искусственного интеллекта",
+      icon: "Brain",
+      publications: [
+        {
+          title: "Запущен новый проект поддержки разработчиков нейросетей",
+          description: "Публикация о проекте «ПРОГРЕССИИВ» в Robotics World",
+          url: "https://roboticsworld.ru/gover-sup/progressiiv-zapushchen-novyy-proект-поддерdzhki-razrabotchikov-neyrosetey/",
+        },
+        {
+          title:
+            "Господдержка ждет разработчиков в области искусственного интеллекта",
+          description: "Информация о государственной поддержке ИИ-проектов",
+          url: "https://sibirnews.ru/news/2023-12-13-gospodderzhka-zhdet-razработчиков-в-области-искусственного-интеллекта/",
+        },
+        {
+          title:
+            "Федеральный центр приладного развития ИИ запустил проект «ПРОГРЕССИИВ»",
+          description:
+            "Официальная публикация на портале «Искусственный интеллект России»",
+          url: "https://ai.gov.ru/mediacenter/federalnyy-tsentr-prikладного-razвитиya-искусственного-интеллекта-zapustil-proект-progressiiv-dlya-p/",
+        },
+        {
+          title: "Публикация о проекте поддержки разработчиков нейросетей",
+          description: "Материал в новосибирском издании Деловой квартал",
+          url: "https://nsk.dk.ru/news/237195239",
+        },
+        {
+          title:
+            "Федеральный центр приладного развития ИИ поддержит разработчиков нейросетей",
+          description: "Публикация в CNews о запуске проекта «ПРОГРЕССИИВ»",
+          url: "https://www.cnews.ru/news/line/2023-12-12_federalnyj_tsentr_prikladnogo",
+        },
+        {
+          title: "Информация о проекте поддержки разработчиков нейросетей",
+          description: "Публикация в IT-издании о государственной поддержке",
+          url: "https://www.novostiitkanala.ru/news/detail.php?ID=173899",
+        },
+        {
+          title: "Металлоинфо: о проекте «ПРОГРЕССИИВ»",
+          description:
+            "Публикация в отраслевом издании о высокотехнологичном проекте",
+          url: "https://www.metalinfo.ru/ru/news/155934",
+        },
+        {
+          title:
+            "Номинация «Цифра в промышленности»: кто станет лауреатом премии",
+          description:
+            "Публикация в издании «Эксперт-Урал» о номинантах премии",
+          url: "https://expert-ural.com/news/nominaciya-cifra-v-promishlennosti-kто-stanet-laureатом-премии.html",
+        },
+        {
+          title: "Публикация в социальных медиа о проекте",
+          description: "Пост в сообществе ВКонтакте",
+          url: "https://m.vk.com/wall-41425853_2753",
+        },
+        {
+          title: "Телеграм-канал Эксперт-Урал о проекте",
+          description: "Публикация в телеграм-канале издания",
+          url: "https://t.me/experturall/4467",
+        },
+        {
+          title: "Пост в социальных сетях о проекте",
+          description: "Информация о проекте в сообществе ВКонтакте",
+          url: "https://m.vk.com/wall-77318376_4192",
         },
       ],
     },
