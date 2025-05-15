@@ -12,3 +12,6 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Блокировка доступа к PDF-файлам для всех роботов
+Disallow: /*.pdf$

@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Icon from "@/components/ui/icon";
+import { toast } from "@/components/ui/use-toast";
 
 // Определение типов для медиа и публикаций
 interface Publication {
@@ -127,12 +128,12 @@ const Index = () => {
         {
           title: "Сет, гейм, матч! Где поиграть в теннис в ЮЗАО",
           description: "Статья в Аргументы и Факты",
-          url: "https://uzao.aif.ru/stati/set-geim-matc-gde-poigrat-v-tennis-v-yuzao",
+          url: "https://uzao.aif.ru/stати/set-geim-matc-gde-poigrat-v-tennis-v-yuzao",
         },
         {
           title: "Партия ЛДПР представила предвыборную программу",
           description: "Публикация на Первом канале",
-          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predstavila_predvybornuyu_programmu_s_kotoroy_poydyot_na_parlamentskoe_golosovanie",
+          url: "https://www.1tv.ru/news/2016-03-09/61296-partiya_ldpr_predставила_preдvybornую_programmu_s_kotoroy_poydyot_na_parlamentskoe_gолосование",
         },
       ],
     },
@@ -150,38 +151,38 @@ const Index = () => {
         {
           title: "Бренд BQ представил новую линейку беспроводных пылесосов",
           description: "Обзор технических характеристик и преимуществ",
-          url: "https://upweek.ru/brend-bq-predstavil-novuyu-linejku-besprovodnyh-pylesosov",
+          url: "https://upweek.ru/brend-bq-pредставил-novuyu-linejku-беспроводных-пылесосов",
         },
         {
           title: "BQ выпустил четыре новых беспроводных пылесоса",
           description: "Анонс продуктовой линейки для российского рынка",
-          url: "https://mpp-news.ru/2023/03/15/bq-vypustil-chetyre-novyh-besprovodnyh-pylesosa/",
+          url: "https://mpp-news.ru/2023/03/15/bq-vypустил-chetyre-novyh-беспроводных-пылесоса/",
         },
         {
           title:
             "BQ-1036L Exion Advant: недорогой 10-дюймовый планшет с Full HD экраном",
           description: "Детальный обзор новой модели планшета",
-          url: "https://www.dgl.ru/technique/tablets/bq-1036l-exion-advant-nedorogoj-10-djujmovyj-planshet-s-full-hd-jekranom.html",
+          url: "https://www.dgl.ru/technique/tablets/bq-1036l-exion-advant-nedorogoj-10-дюймовый-планшет-с-full-hd-экраном.html",
         },
         {
           title: "Обзор планшета BQ-1036L Exion Advant",
           description: "Технический обзор с тестированием производительности",
-          url: "https://itndaily.ru/2023/05/12/obzor-plansheta-bq-1036l-exion-advant/",
+          url: "https://itndaily.ru/2023/05/12/obzor-планшета-bq-1036l-exion-advant/",
         },
         {
           title: "Какую технику покупали в подарок на 8 марта?",
           description: "Аналитика продаж на официальном сайте бренда",
-          url: "https://bq.ru/news/kakuyu-tekhniku-pokupali-v-podarok-na-8-marta--/",
+          url: "https://bq.ru/news/kakuyu-tekhniku-pokupали-в-подарок-на-8-марта--/",
         },
         {
           title: "В России появился вертикальный пылесос на замену Dyson",
           description: "Сравнительный анализ с конкурентами на рынке",
-          url: "https://bq.ru/news/v-rossii-poyavilsya-vertikalnyy-pylesos-na-zamenu-dyson/",
+          url: "https://bq.ru/news/v-rossii-появился-вертикальный-пылесос-на-замену-dyson/",
         },
         {
           title: "Бренд BQ представил новую линейку беспроводных пылесосов",
           description: "Пресс-релиз на официальном сайте компании",
-          url: "https://bq.ru/news/brend-bq-predstavil-novuyu-lineyku-besprovodnykh-pylesosov/",
+          url: "https://bq.ru/news/brend-bq-представил-novuyu-lineyку-беспроводных-пылесосов/",
         },
       ],
     },
@@ -194,25 +195,25 @@ const Index = () => {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Интервью для МК о влиянии масок на здоровье кожи",
-          url: "https://www.mk.ru/social/2021/02/06/novyy-pobochnyy-effekt-pandemii-maski-vyzvali-problemy-s-kozhey.html",
+          url: "https://www.mk.ru/social/2021/02/06/novyy-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kozhey.html",
         },
         {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Экспертное мнение в журнале Profile Russia",
-          url: "https://profilerussia.com/2021/02/06/novyi-pobochnyi-effekt-pandemii-maski-vyzvali-problemy-s-kojei/",
+          url: "https://profilerussia.com/2021/02/06/novyi-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kojey/",
         },
         {
           title:
             "Новый побочный эффект пандемии: маски вызвали проблемы с кожей",
           description: "Аналитический материал с комментариями эксперта",
-          url: "https://newvesti.info/2021/02/06/novyy-pobochnyy-effekt-pandemii-maski-vyzvali-problemy-s-kozhey.html",
+          url: "https://newvesti.info/2021/02/06/novyy-пobochnyj-эффект-пандемии-мaski-vyzvali-проблемы-с-kozhey.html",
         },
         {
           title:
             "Новый нежелательные последствия сильной эпидемии: маски вызвали трудности с кожей",
           description: "Статья о последствиях длительного ношения масок",
-          url: "https://a-climat.ru/novyj-nezhelatelnye-posledstviya-silnoj-epidemii-maski-vyzvali-trudnosti-s-kozhej.html",
+          url: "https://a-climat.ru/novyj-nezhelatelnye-posledstviya-сильной-эпидемии-мaski-vyzvali-трудности-с-kozhey.html",
         },
         {
           title: "Интервью с Викторией Татосян",
@@ -236,7 +237,7 @@ const Index = () => {
         {
           title: "Справедливая Россия: кому достанутся путевки в Крым",
           description: "Информация о социальной программе партии",
-          url: "https://myslo.ru/news/company/2021-04-15-spravedlivая-rossия-komu-dostanutsya-putevki-v-krym",
+          url: "https://myslo.ru/news/company/2021-04-15-spravedlivая-rossия-komu-dostanutsya-putevki-v-crym",
         },
         {
           title: "Справедливая Россия поможет калужским волонтерам",
@@ -246,7 +247,7 @@ const Index = () => {
         {
           title: "Справедливая Россия: кто выиграет путешествие в Крым",
           description: "Анонс конкурса для жителей Рязани",
-          url: "https://rzn.mk.ru/politics/2021/04/16/spravedlivая-rossия-kто-vyigraet-puteshestvie-v-kрым.html",
+          url: "https://rzn.mk.ru/politics/2021/04/16/spravedlivая-rossия-kто-vyigraet-pутешествие-в-Crym.html",
         },
         {
           title: "Справедливая Россия объявила о слиянии с другими партиями",
@@ -267,17 +268,17 @@ const Index = () => {
         {
           title: "Названы шокирующие цифры смертности и рождаемости",
           description: "Аналитический материал о демографической ситуации",
-          url: "https://rzn.mk.ru/social/2021/06/09/nazvany-shokiruyushhie-cifry-smertности-и-rozhdaemости.html",
+          url: "https://rzn.mk.ru/social/2021/06/09/nazvany-shокирующие-цифры-смертности-и-rozhдаемости.html",
         },
         {
           title: "Справедливая Россия запустила свое приложение на Андроид",
           description: "Новость о цифровизации партийной работы",
-          url: "https://www.kalуга.kp.ru/daily/27291/4429436/",
+          url: "https://www.kaluga.kp.ru/daily/27291/4429436/",
         },
         {
           title: "Справедливая Россия представила свою предвыборную программу",
           description: "Обзор программных тезисов партии",
-          url: "https://myslo.ru/news/company/2021-07-05-spravedlivая-rossия-представила-сvoю-пredvybornую-программу",
+          url: "https://myslo.ru/news/company/2021-07-05-spravedливая-rossия-представила-свою-predvybornую-программу",
         },
         {
           title: "Справедливая Россия представила свою предвыборную программу",
@@ -294,12 +295,12 @@ const Index = () => {
           title:
             "Большинство рязанцев выступили против принудительной вакцинации",
           description: "Результаты социологического опроса",
-          url: "https://www.rzn.info/news/2021/7/14/bol-shinstvo-ryazancev-вystupили-protiv-prinuditel-noy-vakcinacii.html",
+          url: "https://www.rzn.info/news/2021/7/14/bol-шинство-ryazancev-вystupили-против-принудительной-вакцинации.html",
         },
         {
-          title: "В беде не оставим",
+          title: "В беге не оставим",
           description: "Социальная инициатива партии в Калуге",
-          url: "https://www.kalуга-poisk.ru/news/obschestvo/v-bede-ne-ostavim",
+          url: "https://www.kaluga-poisk.ru/news/obschestvo/v-bede-ne-ostavим",
         },
       ],
     },
@@ -461,7 +462,15 @@ const Index = () => {
                 Для получения дополнительной информации о рекламном
                 сотрудничестве свяжитесь с нашими представителями.
               </p>
-              <Button className="mt-4 bg-purple-600 hover:bg-purple-700">
+              <Button
+                className="mt-4 bg-purple-600 hover:bg-purple-700"
+                onClick={() =>
+                  toast({
+                    title: "Связаться с нами",
+                    description: "Email: info@example.com",
+                  })
+                }
+              >
                 <Icon name="Mail" className="mr-2 h-4 w-4" />
                 Связаться с нами
               </Button>
